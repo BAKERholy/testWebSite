@@ -1,0 +1,36 @@
+.navigation {
+    margin: 0 auto;
+    width: 1206px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+   
+    &__block { 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &-social {
+            width: 120px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            list-style: none;
+        }
+    }
+
+
+    &__list {
+        color: #697CA6;
+        width: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style: none;   
+    }
+
+    &-list__link{
+        color: #697CA6;
+        text-decoration: none;
+    }
+   
+}
