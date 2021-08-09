@@ -1,0 +1,86 @@
+.block__schedule {
+    background: linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
+    background-repeat: no-repeat;
+    width: 1441px;
+    height: 670px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+
+
+
+    &-title {
+        font-family: "Roboto";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 12px;
+        color: #3D4F9F;
+        padding-top: 91px;
+    }
+
+    &-subtitle {
+        font-family: "Quicksand";
+        font-size: 48px;
+        line-height: 60px;
+        font-style: normal;
+        font-weight: 300;
+        color: #8D96BD;
+
+        &--text {
+            font-weight: 500;
+            color: $color-title;
+        }
+    }
+
+    &-text {
+        font-family: "Roboto";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 29px;
+        color: #3D4F9F;
+        text-align: center;
+    }
+}
+
+.schedule__image {
+    position: absolute;
+    width: 1300px;
+    height: 490px;
+    left: -61px;
+    top: 0px;
+    z-index: 2;
+
+}
+
+.schedule__line {
+    position: absolute;
+    width: 1441px;
+    height: 465px;
+    top: 185px;
+    left: 0;
+    z-index: 3;
+}
+
+.schedule__button {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 640px;
+    top: 320px;
+    z-index: 4;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.schedule__indicator {
+    position: absolute;
+    width: 92px;
+    height: 68px;
+    left: 470px;
+    top: 500px;
+    z-index: 5;
+
+}
