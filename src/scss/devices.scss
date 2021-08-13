@@ -1,0 +1,118 @@
+.devices {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #F5F8FF;
+    margin-top: 5px;
+    padding-top: 208px;
+    padding-bottom: 200px;
+}
+
+.devices__block-left {
+   text-align: left;
+   padding-left: 180px;
+
+    &--title {
+        color: $color-title;
+        font-family: "Roboto";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 11px;
+    }
+
+    &--subtitle {
+        color: $color-title;
+        font-family: "Quicksand";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 45px;
+
+        &--text {
+        color: $color-title;
+        font-family: "Quicksand";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 45px;
+        }
+    } 
+
+    &--text {
+        font-family: "Roboto";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        color: #8D96BD;
+    }
+
+    &--first-button {
+        width: 130px;
+        height: 43px;
+        background-color: #4C85FF;
+        text-align: center;
+        color: #ffffff;
+        font-family: "Quicksand";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 16px;
+        cursor: pointer;
+        border: none;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+
+        &::after {
+            
+            content: "";
+            position: absolute;
+            background-repeat: no-repeat;
+            background-image: url("../img/devices/play.svg");
+            top: 450px;
+            left: 285px;
+            width: 6px;
+            height: 8px;
+            background-position: bottom center;
+              
+        }
+    }
+
+    &--second-button {
+        width: 130px;
+        height: 43px;
+        text-align: center;
+        background-color: #F5F8FF;
+        color: #ADB4D2;
+        font-family: "Quicksand";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
+        cursor: pointer;
+        border: 1px solid #D1D1E4;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+    }
+}
+
+.devices__block-desktop {
+    position: absolute;
+    top: 85px;
+    right: 0;
+    z-index: 1;
+}
+
+.devices__block-first-mobile {
+    position: absolute;
+    top: 190px;
+    right: 555px;
+    z-index: 2;
+}
+
+.devices__block-second-mobile {
+    position: absolute;
+    top: 165px;
+    right: 35px;
+    z-index: 3;
+}
