@@ -1,6 +1,7 @@
 .devices {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 150px;
     background-color: #F5F8FF;
     margin-top: 5px;
     padding-top: 208px;
@@ -69,8 +70,8 @@
             position: absolute;
             background-repeat: no-repeat;
             background-image: url("../img/devices/play.svg");
-            top: 450px;
-            left: 285px;
+            top: 451px;
+            left: 299px;
             width: 6px;
             height: 8px;
             background-position: bottom center;

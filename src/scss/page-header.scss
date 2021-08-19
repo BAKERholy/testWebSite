@@ -4,7 +4,8 @@
     font-style: normal;
     font-weight: 700;
     line-height: 15px;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
 
     &__button {
         color: #3A79FF;
