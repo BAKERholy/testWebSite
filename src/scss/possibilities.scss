@@ -1,0 +1,117 @@
+.possibilities {
+    text-align: center;
+    margin-top: 41px;
+
+    &__block {
+        background-image: url(../img/possibilities/pclouds.svg);
+        background-size: contain;
+        padding-top: 100px;
+    }
+
+    &__block-title {
+        color: $color-title;
+        font-family: "Roboto";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 12px;
+        padding-top: 30px;
+    }
+
+    &__block-subtitle {
+        font-family: "Quicksand";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        color: $color-title;
+
+    }
+
+    &__block-advantages {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 92px;
+    }
+
+
+}
+
+.possibilities__block-advantage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &--title {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-size: 14px;
+        line-height: 25px;
+        font-weight: 700;
+        color: #4074F8;
+    }
+
+    &--text {
+        font-family: "Open Sans Light";
+        font-style: normal;
+        font-style: 11px;
+        line-height: 19px;
+        font-weight: 600;
+        color: #ADB3CB;
+    }
+}
+
+.possibilities__block-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 141px;
+}
+
+.possibilities__block-first_button {
+    width: 113px;
+    height: 43px;
+    background: #FFD7D7;
+    text-align: center;
+    font-family: "Quicksand";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    color: #D43F3F;
+    border-radius: 2px;
+    padding-top: 15px;
+}
+
+.possibilities__block-or {
+    padding-top: 15px;
+    font-family: "Open Sans";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    color: #ADB3CB;
+}
+
+.possibilities__block-second_button {
+    width: 113px;
+    height: 43px;
+    background: #D2E1FF;
+    text-align: center;
+    font-family: "Quicksand";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    color: #3A79FF;
+    border-radius: 2px;
+    padding-top: 15px;
+}
+        
+           
+    
+        
+        
+    

@@ -13,5 +13,21 @@
          url('../fonts/Roboto.woff2') format('woff2'),
          url('../fonts/Roboto.woff') format('woff');
 }
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  src: local(''),
+       url('../fonts/opensanssemibold.woff2') format('woff2'),
+       url('../fonts/opensanssemibold.woff') format('woff');
+}
+
+@font-face {
+     font-family: "Open Sans Light";
+     font-style: normal;
+     src: local(''),
+          url('../fonts/opensanslight.woff2') format('woff2'),
+          url('../fonts/opensanslight.woff') format('woff');
+   }
   
  
