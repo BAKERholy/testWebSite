@@ -1,0 +1,155 @@
+.slider {
+    padding-top: 100px;
+    background-color: #F5F8FF;
+    padding-bottom: 5%;
+
+    &__start.carousel {
+        .carousel-indicators {
+            margin-top: 100px;
+            button {
+                background-image: url(../img/slider/slider-point.svg);
+                width: 8px;
+                height: 8px;
+                
+            } 
+        }
+
+        .carousel-control-prev {
+            background-image: url(../img/slider/button_left.svg);
+            width: 23px;
+            height: 15px;
+            top: 50%;
+            left: 3%;
+        }
+
+        .carousel-control-next {
+            background-image: url(../img/slider/button-right.svg);
+            width: 23px;
+            height: 15px;
+            top: 50%;
+            right: 3%;
+            
+        }
+
+
+
+        
+    }
+
+
+    &__block {
+        text-align: center;
+
+
+        &-title {
+            font-family: "Roboto";
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 12px;
+            color: #3D4F9F;
+            padding-top: 91px;
+        }
+
+        &-subtitle {
+            font-family: "Quicksand";
+            font-size: 24px;
+            line-height: 30px;
+            font-style: normal;
+            font-weight: 300;
+            color: #3D4F9F;
+        }
+
+        
+    }
+}
+
+.main-modal {
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    display: none;
+    z-index: 10;
+    padding: 20px;
+    background-color: white;
+        &.active {
+        display: block;
+    }
+}
+
+.modal__button {
+    background-image: url(../img/slider/Search.svg);
+    width: 65px;
+    height: 65px;
+    top: 120px;
+    left: 120px;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    left: 45%;
+
+}
+
+.images-wrapper {
+    .col-8:hover {
+        img {
+            width: 400px;
+            height: 400px;
+            transition: .10s ease;
+        }
+
+    }
+}
+
+.row {
+    margin-top: 92px;
+    margin-bottom: 50px;
+}
+
+
+
+.text__wrapper-title {
+    margin-top: 92px;
+    font-family: "Quicksand";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    color: #3D4F9F;
+}
+
+.text__wrapper-text {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #8D96BD;
+}
+
+.text__wrapper-button {
+    font-family: "Quicksand";
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    width: 113px;
+    height: 43px;
+    color: #3A79FF;
+    background-color: #D2E1FF;
+    border: none;
+}
+
+.text__wrapper-link {
+    font-family: "Quicksand";
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    color: #A6B6DA;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 2%;
+    padding-left: 23px;
+}
+

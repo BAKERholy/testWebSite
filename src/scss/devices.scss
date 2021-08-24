@@ -70,7 +70,6 @@
             position: absolute;
             background-repeat: no-repeat;
             background-image: url("../img/devices/play.svg");
-            top: 451px;
             left: 299px;
             width: 6px;
             height: 8px;
@@ -99,21 +98,20 @@
 
 .devices__block-desktop {
     position: absolute;
-    top: 85px;
     right: 0;
     z-index: 1;
 }
 
 .devices__block-first-mobile {
     position: absolute;
-    top: 190px;
+    top: 1120px;
     right: 555px;
     z-index: 2;
 }
 
 .devices__block-second-mobile {
     position: absolute;
-    top: 165px;
-    right: 35px;
+    top: 1100px;
+    right: 60px;
     z-index: 3;
 }
