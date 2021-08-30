@@ -1,0 +1,94 @@
+.reviews {
+    position: relative;
+
+    &__block {
+        background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
+        width: 100%;
+        padding-bottom: 7%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 130px;
+    }
+
+
+    &__block-left {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        padding-left: 276px;
+
+
+        &--title {
+            font-family: "Roboto";
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 12px;
+            color: #3D4F9F;
+            padding-top: 146px;
+        }
+
+        &--subtitle {
+            font-family: "Quicksand";
+            font-size: 24px;
+            line-height: 30px;
+            font-style: normal;
+            font-weight: 300;
+            color: #3D4F9F;
+            padding-top: 30px;
+        }
+
+        &--text {
+            font-family: "Open Sans Light";
+            font-style: normal;
+            font-style: 11px;
+            line-height: 19px;
+            font-weight: 600;
+            color: #A4ABC8;
+            padding-top: 15px;
+        }
+    }
+
+    &__slider {
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 5%;
+
+
+        &-slide {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            background-color: #F5F8FF;
+            position: relative;
+
+            &--text {
+                font-family: "Roboto";
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24px;
+                padding-top: 24px;
+                color: #676F95;
+            }
+
+            &--img {
+                width: 5%;
+                width: 62px;
+                height: 62px;
+                align-items: center;
+                z-index: 1;
+            }
+
+            
+        }
+
+
+
+        
+
+    }
+
+
+
+
+}
